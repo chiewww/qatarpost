@@ -1,0 +1,33 @@
+name: Update Qatar Post unavailable countries
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Python packages
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run monitor
+        run: |
+          python monitor.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add docs/no_option_available.txt
+          git commit -m "Update unavailable countries" || exit 0
+          git push
