@@ -1,5 +1,5 @@
 import requests
-
+import os
 COUNTRIES_URL = "https://qatarpost.qa/Home/GetCountries"
 COST_URL = "https://qatarpost.qa/SendPackage/GetShipmentCost"
 
@@ -65,6 +65,7 @@ def check_country(country):
 
 
 def main():
+    os.makedirs("docs", exist_ok=True)
     countries = get_countries()
 
     unavailable = []
