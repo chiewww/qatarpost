@@ -45,7 +45,7 @@ def check_country(country):
             return True
 
         price = letter.get("actualPrice")
-        message = letter.get("message", "")
+        message = letter.get("message") or ""
 
         # Treat these as unavailable
         if price is None:
