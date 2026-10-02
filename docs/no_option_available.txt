@@ -1,3 +1,5 @@
+Afghanistan
+Angola
 Antarctica
 Argentina
 Ascension Island
@@ -27,6 +29,7 @@ Israel
 Ivory Coast
 Jersey
 Kuwait
+Kyrgyzstan
 Laos
 Libya
 Luxembourg
@@ -46,6 +49,8 @@ Russia
 Saint Barthélemy
 Saint Martin (French part)
 Sint Maarten (Dutch part)
+Slovakia
+Slovenia
 Somalia
 Svalbard and Jan Mayen
 Tokelau
