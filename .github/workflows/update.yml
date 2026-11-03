@@ -1,5 +1,4 @@
-name: Update Qatar Post unavailable countries
-
+name: Update Qatar Post list
 on:
   schedule:
     - cron: "0 2 * * *"
