@@ -356,6 +356,7 @@ ALIASES = {
     "virgin islands uk": 242,
     "british virgin islands": 242,
     "virgin islands us": 243,
+    "virgin islands,u.s.": 243,
     "virgin islands usa": 243,
     "virgin islands of the usa": 243,
     "virgin islands of the united states": 243,
