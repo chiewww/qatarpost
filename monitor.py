@@ -280,6 +280,13 @@ MASTER_RAW = """
 """
 
 QATAR_NUMBER = 179
+SAINT_HELENA_NUMBER = 185
+
+# Destinations to ignore completely (matched on the start of the normalized name)
+IGNORED_PREFIXES = (
+    "bouvet",
+    "heard island",
+)
 
 # Extra spellings Qatar Post might use -> Postcrossing number
 ALIASES = {
@@ -294,7 +301,14 @@ ALIASES = {
     "dr congo": 51,
     "drc": 51,
     "congo kinshasa": 51,
+    # Côte d'Ivoire
     "ivory coast": 54,
+    "cote divoir": 54,
+    "cote divoire": 54,
+    "cote d ivoire": 54,
+    "cote d ivoir": 54,
+    # United Kingdom
+    "great britain": 233,
     "czech republic": 59,
     "swaziland": 70,
     "eswatini": 70,
@@ -302,14 +316,19 @@ ALIASES = {
     "malvinas": 72,
     "nauru": 153,
     "naoero": 153,
+    # Korea
     "north korea": 116,
     "south korea": 117,
     "korea north": 116,
     "korea south": 117,
     "korea democratic peoples republic of": 116,
     "democratic peoples republic of korea": 116,
+    "dem peoples rep of korea": 116,
+    "dem people s rep of korea": 116,
+    "dem peoples republic of korea": 116,
     "korea republic of": 117,
     "korea rep of": 117,
+    "korea rep": 117,
     "republic of korea": 117,
     "macau": 130,
     "macao sar china": 130,
@@ -326,9 +345,13 @@ ALIASES = {
     "us": 235,
     "us minor outlying islands": 236,
     "united states minor outlying islands": 236,
+    # Vatican
     "vatican city": 239,
     "vatican city state": 239,
     "holy see": 239,
+    "vatican": 239,
+    # Virgin Islands
+    "virgin islands": 243,   # without (UK) attached -> USA
     "virgin islands british": 242,
     "virgin islands uk": 242,
     "british virgin islands": 242,
@@ -373,13 +396,16 @@ ALIASES = {
     "saint martin french part": 188,
     "bonaire": 28,
     "bonaire saint eustatius and saba": 28,
+    # Saint Helena, Ascension and Tristan da Cunha
     "saint helena": 185,
     "saint helena ascension and tristan da cunha": 185,
+    "ascension": 185,
+    "ascension island": 185,
+    "tristan da cunha": 185,
     "saint barthelemy": 184,
     "reunion": 180,
     "curacao": 57,
     "aland islands": 2,
-    "vatican": 239,
 }
 
 
@@ -392,6 +418,19 @@ def normalize(name):
     s = re.sub(r"\s+", " ", s).strip()
     s = re.sub(r"^(st|ste) ", "saint ", s)
     return s
+
+
+def is_ignored(norm_name):
+    return any(norm_name.startswith(p) for p in IGNORED_PREFIXES)
+
+
+def saint_helena_part(norm_name):
+    """Returns 'Ascension' / 'Tristan da Cunha' if the entry is that sub-territory."""
+    if norm_name in ("ascension", "ascension island"):
+        return "Ascension"
+    if norm_name.startswith("tristan"):
+        return "Tristan da Cunha"
+    return None
 
 
 def load_master():
@@ -508,8 +547,7 @@ def classify(items):
         if price is not None and "Unable to calculate" not in message:
             service = item_name(letter, DEFAULT_SERVICE_NAME)
             return ("available", service, f"{CURRENCY} {price:.2f}")
-        reason = message or "no price returned"
-        return ("suspended", f"“{DEFAULT_SERVICE_NAME}” has no price: {reason}")
+        return ("suspended", "No price")
 
     # Letter service not present at all
     others = []
@@ -537,50 +575,91 @@ def main():
 
     countries = get_countries(session)
 
-    # Remove Qatar (the sending country) and duplicates, keep dropdown order
-    destinations = []
-    seen = set()
-    for c in countries:
-        name = str(c.get("value", "")).strip()
-        if not name or normalize(name) == "qatar":
-            continue
-        if normalize(name) in seen:
-            continue
-        seen.add(normalize(name))
-        destinations.append(c)
-
-    available = []        # (display_line)
-    suspended_a = []      # (display_line)
-    matched_numbers = set()
+    # Build groups in dropdown order. Each group = one destination
+    # (one Postcrossing number). Repeated destinations are not counted twice.
+    groups = {}          # key -> {"number": int|None, "entries": [country, ...]}
+    group_order = []
     unmatched_names = []
 
-    total = len(destinations)
-    for i, country in enumerate(destinations, start=1):
-        qp_name = str(country["value"]).strip()
-        number = lookup.get(normalize(qp_name))
+    for c in countries:
+        name = str(c.get("value", "")).strip()
+        norm = normalize(name)
+        if not name or norm == "qatar" or is_ignored(norm):
+            continue
+
+        number = lookup.get(norm)
+        if number == QATAR_NUMBER:
+            continue
+
+        key = number if number is not None else ("x", norm)
+        if key not in groups:
+            groups[key] = {"number": number, "entries": [], "norms": set()}
+            group_order.append(key)
+            if number is None:
+                unmatched_names.append(name)
+
+        group = groups[key]
+        if norm in group["norms"]:
+            continue  # exact repeat of an entry we already have
+        group["norms"].add(norm)
+        group["entries"].append(c)
+
+    available = []        # display lines
+    suspended_a = []      # display lines
+    matched_numbers = set()
+
+    total = len(group_order)
+    first_printed = False
+
+    for i, key in enumerate(group_order, start=1):
+        group = groups[key]
+        number = group["number"]
+        entries = group["entries"]
 
         if number is not None:
             matched_numbers.add(number)
             display_name = master_names[number]
             num_text = str(number)
         else:
-            unmatched_names.append(qp_name)
-            display_name = qp_name
+            display_name = str(entries[0]["value"]).strip()
             num_text = "??"
 
-        print(f"{i}/{total} Checking {qp_name}")
-        items = get_cost(session, country)
-        if i == 1:
-            print(f"  (sample raw response for first country: {items})")
-        result = classify(items)
+        # Normally only the first entry counts; Saint Helena group needs all.
+        to_check = entries if number == SAINT_HELENA_NUMBER else entries[:1]
 
+        results = []
+        for country in to_check:
+            qp_name = str(country["value"]).strip()
+            print(f"{i}/{total} Checking {qp_name}")
+            items = get_cost(session, country)
+            if not first_printed:
+                print(f"  (sample raw response for first country: {items})")
+                first_printed = True
+            results.append((country, classify(items)))
+            time.sleep(REQUEST_DELAY)
+
+        # Special rule: Ascension / Tristan da Cunha suspended -> suspend 185
+        if number == SAINT_HELENA_NUMBER:
+            bad = []
+            for country, res in results:
+                part = saint_helena_part(normalize(country["value"]))
+                if part and res[0] == "suspended" and part not in bad:
+                    bad.append(part)
+            if bad:
+                order = ["Ascension", "Tristan da Cunha"]
+                bad.sort(key=order.index)
+                verb = "is" if len(bad) == 1 else "are"
+                suspended_a.append(
+                    f"{num_text}. {display_name} ({' and '.join(bad)} {verb} suspended)"
+                )
+                continue
+
+        result = results[0][1]
         if result[0] == "available":
             _, service, price_text = result
             available.append(f"{num_text}. {display_name} {service} {price_text}")
         else:
             suspended_a.append(f"{num_text}. {display_name} ({result[1]})")
-
-        time.sleep(REQUEST_DELAY)
 
     # Suspended B: in Postcrossing list but not in Qatar Post's dropdown
     suspended_b = []
