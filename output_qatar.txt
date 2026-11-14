@@ -1,4 +1,4 @@
-AVAILABLE DESTINATIONS (197)
+AVAILABLE DESTINATIONS (193)
 3. Albania Global standard-Letter QAR 15.00
 4. Algeria Global standard-Letter QAR 10.00
 5. American Samoa Global standard-Letter QAR 15.00
@@ -139,7 +139,6 @@ AVAILABLE DESTINATIONS (197)
 180. Réunion Global standard-Letter QAR 15.00
 181. Romania Global standard-Letter QAR 15.00
 183. Rwanda Global standard-Letter QAR 15.00
-185. Saint Helena, Ascension and Tristan da Cunha Global standard-Letter QAR 15.00
 186. Saint Kitts and Nevis Global standard-Letter QAR 15.00
 187. Saint Lucia Global standard-Letter QAR 15.00
 189. Saint Pierre & Miquelon Global standard-Letter QAR 15.00
@@ -180,7 +179,7 @@ AVAILABLE DESTINATIONS (197)
 230. Uganda Global standard-Letter QAR 15.00
 231. Ukraine Global standard-Letter QAR 15.00
 232. United Arab Emirates Global standard-Letter QAR 10.00
-??. Great Britain Global standard-Letter QAR 15.00
+233. United Kingdom Global standard-Letter QAR 15.00
 235. U.S.A. Global standard-Letter QAR 15.00
 234. Uruguay Global standard-Letter QAR 15.00
 237. Uzbekistan Global standard-Letter QAR 15.00
@@ -192,76 +191,65 @@ AVAILABLE DESTINATIONS (197)
 244. Wallis & Futuna Global standard-Letter QAR 15.00
 247. Zambia Global standard-Letter QAR 15.00
 248. Zimbabwe Global standard-Letter QAR 15.00
-??. Ascension Global standard-Letter QAR 15.00
-242. Virgin Islands (UK) Global standard-Letter QAR 15.00
-??. Korea (Rep.) Global standard-Letter QAR 15.00
-??. Cote dIvoire Global standard-Letter QAR 15.00
+117. Korea(South) Global standard-Letter QAR 15.00
 
-SUSPENDED DESTINATIONS - Global standard-Letter unavailable (60)
-1. Afghanistan (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-2. Åland Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-7. Angola (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-9. Antarctica (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-28. Bonaire, Sint Eustatius and Saba (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-29. Bosnia-Herzegovina (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-??. Bouvet Island (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-32. British Indian Ocean Territory (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-33. Brunei (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-34. Bulgaria (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-46. Christmas Island (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-47. Cocos Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-57. Curaçao (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-61. Djibouti (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-64. Ecuador (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-68. Eritrea (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-74. Fiji (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-77. French Guiana (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-79. French Southern Territories (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-92. Guernsey (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-??. Heard Island and McDonald Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-103. Iran (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-106. Isle of Man (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-107. Israel (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-111. Jersey (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-119. Kuwait (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-120. Kyrgyzstan (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-126. Libya (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-129. Luxembourg (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-139. Mauritania (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-140. Mauritius (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-141. Mayotte (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-142. Mexico (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-144. Moldova (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-151. Myanmar (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-163. Northern Mariana Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-168. Palau (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-169. Palestine (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-182. Russia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-184. Saint Barthélemy (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-188. Saint Martin (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-200. Sint Maarten (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-201. Slovakia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-202. Slovenia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-204. Somalia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-212. Svalbard and Jan Mayen (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-222. Tokelau (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-223. Tonga (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-236. U.S. Minor Outlying Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-245. Western Sahara (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-246. Yemen (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-??. Dem. People’s Rep. of Korea (“Global standard-Letter” has no price: Invalid destination country name)
-51. Dem. Rep. Of Congo (“Global standard-Letter” has no price: Invalid destination country name)
-220. Timor-Leste (“Global standard-Letter” has no price: Unable to calculate, please try again later)
-54. Côte d'Ivoire (“Global standard-Letter” has no price: Invalid destination country name)
-121. Laos (“Global standard-Letter” has no price: Invalid destination country name)
-??. Netherlands Antilles (“Global standard-Letter” has no price: Invalid destination country name)
-50. Congo (“Global standard-Letter” has no price: Invalid destination country name)
-??. Tristan da Cunha (“Global standard-Letter” has no price: Invalid destination country name)
-239. Vatican (“Global standard-Letter” has no price: Invalid destination country name)
+SUSPENDED DESTINATIONS - Global standard-Letter unavailable (55)
+1. Afghanistan (No price)
+2. Åland Islands (No price)
+7. Angola (No price)
+9. Antarctica (No price)
+28. Bonaire, Sint Eustatius and Saba (No price)
+29. Bosnia-Herzegovina (No price)
+32. British Indian Ocean Territory (No price)
+33. Brunei (No price)
+34. Bulgaria (No price)
+46. Christmas Island (No price)
+47. Cocos Islands (No price)
+57. Curaçao (No price)
+61. Djibouti (No price)
+64. Ecuador (No price)
+68. Eritrea (No price)
+74. Fiji (No price)
+77. French Guiana (No price)
+79. French Southern Territories (No price)
+92. Guernsey (No price)
+103. Iran (No price)
+106. Isle of Man (No price)
+107. Israel (No price)
+111. Jersey (No price)
+119. Kuwait (No price)
+120. Kyrgyzstan (No price)
+126. Libya (No price)
+129. Luxembourg (No price)
+139. Mauritania (No price)
+140. Mauritius (No price)
+141. Mayotte (No price)
+142. Mexico (No price)
+144. Moldova (No price)
+151. Myanmar (No price)
+163. Northern Mariana Islands (No price)
+168. Palau (No price)
+169. Palestine (No price)
+182. Russia (No price)
+184. Saint Barthélemy (No price)
+185. Saint Helena, Ascension and Tristan da Cunha (Tristan da Cunha is suspended)
+188. Saint Martin (No price)
+200. Sint Maarten (No price)
+201. Slovakia (No price)
+202. Slovenia (No price)
+204. Somalia (No price)
+212. Svalbard and Jan Mayen (No price)
+222. Tokelau (No price)
+223. Tonga (No price)
+236. U.S. Minor Outlying Islands (No price)
+245. Western Sahara (No price)
+246. Yemen (No price)
+116. Korea(North) (No price)
+54. Côte d'Ivoire (No price)
+121. Laos (No price)
+??. Netherlands Antilles (No price)
+239. Vatican (No price)
 
-SUSPENDED DESTINATIONS - Missing from Qatar Post's list (5)
-116. Korea(North)
-117. Korea(South)
+SUSPENDED DESTINATIONS - Missing from Qatar Post's list (2)
 118. Kosovo
-233. United Kingdom
 243. Virgin Islands of the USA
