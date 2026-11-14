@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-qatar-post
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -34,4 +38,5 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add output_qatar.txt
           git commit -m "Update Qatar Post list" || exit 0
+          git pull --rebase -X theirs origin ${{ github.ref_name }}
           git push
