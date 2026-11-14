@@ -187,7 +187,7 @@ AVAILABLE DESTINATIONS (193)
 240. Venezuela Global standard-Letter QAR 15.00
 241. Vietnam Global standard-Letter QAR 15.00
 242. Virgin Islands (UK) Global standard-Letter QAR 15.00
-??. Virgin Islands, U.S. Global standard-Letter QAR 15.00
+243. Virgin Islands of the USA Global standard-Letter QAR 15.00
 244. Wallis & Futuna Global standard-Letter QAR 15.00
 247. Zambia Global standard-Letter QAR 15.00
 248. Zimbabwe Global standard-Letter QAR 15.00
@@ -250,6 +250,5 @@ SUSPENDED DESTINATIONS - Global standard-Letter unavailable (55)
 ??. Netherlands Antilles (No price)
 239. Vatican (No price)
 
-SUSPENDED DESTINATIONS - Missing from Qatar Post's list (2)
+SUSPENDED DESTINATIONS - Missing from Qatar Post's list (1)
 118. Kosovo
-243. Virgin Islands of the USA
