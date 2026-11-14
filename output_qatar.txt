@@ -1,0 +1,267 @@
+AVAILABLE DESTINATIONS (197)
+3. Albania Global standard-Letter QAR 15.00
+4. Algeria Global standard-Letter QAR 10.00
+5. American Samoa Global standard-Letter QAR 15.00
+6. Andorra Global standard-Letter QAR 15.00
+8. Anguilla Global standard-Letter QAR 15.00
+10. Antigua & Barbuda Global standard-Letter QAR 15.00
+11. Argentina Global standard-Letter QAR 15.00
+12. Armenia Global standard-Letter QAR 15.00
+13. Aruba Global standard-Letter QAR 15.00
+14. Australia Global standard-Letter QAR 15.00
+15. Austria Global standard-Letter QAR 15.00
+16. Azerbaijan Global standard-Letter QAR 15.00
+18. Bahrain Global standard-Letter QAR 10.00
+17. Bahamas Global standard-Letter QAR 15.00
+19. Bangladesh Global standard-Letter QAR 15.00
+20. Barbados Global standard-Letter QAR 15.00
+21. Belarus Global standard-Letter QAR 15.00
+22. Belgium Global standard-Letter QAR 15.00
+23. Belize Global standard-Letter QAR 15.00
+24. Benin Global standard-Letter QAR 15.00
+25. Bermuda Global standard-Letter QAR 15.00
+26. Bhutan Global standard-Letter QAR 15.00
+27. Bolivia Global standard-Letter QAR 15.00
+30. Botswana Global standard-Letter QAR 15.00
+31. Brazil Global standard-Letter QAR 15.00
+35. Burkina Faso Global standard-Letter QAR 15.00
+36. Burundi Global standard-Letter QAR 15.00
+38. Cambodia Global standard-Letter QAR 15.00
+39. Cameroon Global standard-Letter QAR 15.00
+40. Canada Global standard-Letter QAR 15.00
+37. Cabo Verde Global standard-Letter QAR 15.00
+41. Cayman Islands Global standard-Letter QAR 15.00
+42. Central African Republic Global standard-Letter QAR 15.00
+43. Chad Global standard-Letter QAR 15.00
+44. Chile Global standard-Letter QAR 15.00
+45. China Global standard-Letter QAR 15.00
+48. Colombia Global standard-Letter QAR 15.00
+49. Comoros Global standard-Letter QAR 10.00
+50. Congo Global standard-Letter QAR 15.00
+51. Dem. Rep. Of Congo Global standard-Letter QAR 15.00
+52. Cook Islands Global standard-Letter QAR 15.00
+53. Costa Rica Global standard-Letter QAR 15.00
+55. Croatia Global standard-Letter QAR 15.00
+56. Cuba Global standard-Letter QAR 15.00
+58. Cyprus Global standard-Letter QAR 15.00
+59. Czechia Global standard-Letter QAR 15.00
+60. Denmark Global standard-Letter QAR 15.00
+62. Dominica Global standard-Letter QAR 15.00
+63. Dominican Republic Global standard-Letter QAR 15.00
+65. Egypt Global standard-Letter QAR 10.00
+66. El Salvador Global standard-Letter QAR 15.00
+67. Equatorial Guinea Global standard-Letter QAR 15.00
+69. Estonia Global standard-Letter QAR 15.00
+71. Ethiopia Global standard-Letter QAR 15.00
+72. Falkland Islands /Malvinas Global standard-Letter QAR 15.00
+73. Faroe Islands Global standard-Letter QAR 15.00
+75. Finland Global standard-Letter QAR 15.00
+76. France Global standard-Letter QAR 15.00
+78. French Polynesia Global standard-Letter QAR 15.00
+80. Gabon Global standard-Letter QAR 15.00
+81. Gambia Global standard-Letter QAR 15.00
+82. Georgia Global standard-Letter QAR 15.00
+83. Germany Global standard-Letter QAR 15.00
+84. Ghana Global standard-Letter QAR 15.00
+85. Gibraltar Global standard-Letter QAR 15.00
+86. Greece Global standard-Letter QAR 15.00
+87. Greenland Global standard-Letter QAR 15.00
+88. Grenada Global standard-Letter QAR 15.00
+89. Guadeloupe Global standard-Letter QAR 15.00
+90. Guam Global standard-Letter QAR 15.00
+91. Guatemala Global standard-Letter QAR 15.00
+93. Guinea Global standard-Letter QAR 15.00
+94. Guinea-Bissau Global standard-Letter QAR 15.00
+95. Guyana Global standard-Letter QAR 15.00
+96. Haiti Global standard-Letter QAR 15.00
+??. Holy See (Vatican City State) Global standard-Letter QAR 15.00
+97. Honduras Global standard-Letter QAR 15.00
+98. Hong Kong Global standard-Letter QAR 15.00
+99. Hungary Global standard-Letter QAR 15.00
+100. Iceland Global standard-Letter QAR 15.00
+101. India Global standard-Letter QAR 15.00
+102. Indonesia Global standard-Letter QAR 15.00
+104. Iraq Global standard-Letter QAR 15.00
+105. Ireland Global standard-Letter QAR 15.00
+108. Italy Global standard-Letter QAR 15.00
+109. Jamaica Global standard-Letter QAR 15.00
+110. Japan Global standard-Letter QAR 15.00
+112. Jordan Global standard-Letter QAR 10.00
+113. Kazakhstan Global standard-Letter QAR 15.00
+114. Kenya Global standard-Letter QAR 15.00
+115. Kiribati Global standard-Letter QAR 15.00
+122. Latvia Global standard-Letter QAR 15.00
+123. Lebanon Global standard-Letter QAR 10.00
+124. Lesotho Global standard-Letter QAR 15.00
+125. Liberia Global standard-Letter QAR 15.00
+127. Liechtenstein Global standard-Letter QAR 15.00
+128. Lithuania Global standard-Letter QAR 15.00
+130. Macao Global standard-Letter QAR 15.00
+164. North Macedonia Global standard-Letter QAR 15.00
+131. Madagascar Global standard-Letter QAR 15.00
+132. Malawi Global standard-Letter QAR 15.00
+133. Malaysia Global standard-Letter QAR 15.00
+134. Maldives Global standard-Letter QAR 15.00
+135. Mali Global standard-Letter QAR 15.00
+136. Malta Global standard-Letter QAR 15.00
+137. Marshall Islands Global standard-Letter QAR 15.00
+138. Martinique Global standard-Letter QAR 15.00
+143. Micronesia Global standard-Letter QAR 15.00
+145. Monaco Global standard-Letter QAR 15.00
+146. Mongolia Global standard-Letter QAR 15.00
+147. Montenegro Global standard-Letter QAR 15.00
+148. Montserrat Global standard-Letter QAR 15.00
+149. Morocco Global standard-Letter QAR 15.00
+150. Mozambique Global standard-Letter QAR 15.00
+152. Namibia Global standard-Letter QAR 15.00
+153. Nauru / Naoero Global standard-Letter QAR 15.00
+154. Nepal Global standard-Letter QAR 15.00
+155. Netherlands Global standard-Letter QAR 15.00
+156. New Caledonia Global standard-Letter QAR 15.00
+157. New Zealand Global standard-Letter QAR 15.00
+158. Nicaragua Global standard-Letter QAR 15.00
+159. Niger Global standard-Letter QAR 15.00
+160. Nigeria Global standard-Letter QAR 15.00
+161. Niue Global standard-Letter QAR 15.00
+162. Norfolk Island Global standard-Letter QAR 15.00
+165. Norway Global standard-Letter QAR 15.00
+166. Oman Global standard-Letter QAR 10.00
+167. Pakistan Global standard-Letter QAR 15.00
+170. Panama Global standard-Letter QAR 15.00
+171. Papua New Guinea Global standard-Letter QAR 15.00
+172. Paraguay Global standard-Letter QAR 15.00
+173. Peru Global standard-Letter QAR 15.00
+174. Philippines Global standard-Letter QAR 15.00
+175. Pitcairn Global standard-Letter QAR 15.00
+176. Poland Global standard-Letter QAR 15.00
+177. Portugal Global standard-Letter QAR 15.00
+178. Puerto Rico Global standard-Letter QAR 15.00
+180. Réunion Global standard-Letter QAR 15.00
+181. Romania Global standard-Letter QAR 15.00
+183. Rwanda Global standard-Letter QAR 15.00
+185. Saint Helena, Ascension and Tristan da Cunha Global standard-Letter QAR 15.00
+186. Saint Kitts and Nevis Global standard-Letter QAR 15.00
+187. Saint Lucia Global standard-Letter QAR 15.00
+189. Saint Pierre & Miquelon Global standard-Letter QAR 15.00
+190. Saint Vincent and the Grenadines Global standard-Letter QAR 15.00
+191. Samoa Global standard-Letter QAR 15.00
+192. San Marino Global standard-Letter QAR 15.00
+193. Sao Tome and Principe Global standard-Letter QAR 15.00
+194. Saudi Arabia Global standard-Letter QAR 10.00
+195. Senegal Global standard-Letter QAR 15.00
+196. Serbia Global standard-Letter QAR 15.00
+197. Seychelles Global standard-Letter QAR 15.00
+198. Sierra Leone Global standard-Letter QAR 15.00
+199. Singapore Global standard-Letter QAR 15.00
+203. Solomon Islands Global standard-Letter QAR 15.00
+205. South Africa Global standard-Letter QAR 15.00
+206. South Georgia and S. Sandwich Islands Global standard-Letter QAR 15.00
+207. South Sudan Global standard-Letter QAR 15.00
+208. Spain Global standard-Letter QAR 15.00
+209. Sri Lanka Global standard-Letter QAR 15.00
+210. Sudan Global standard-Letter QAR 15.00
+211. Suriname Global standard-Letter QAR 15.00
+70. Eswatini /Swaziland Global standard-Letter QAR 15.00
+213. Sweden Global standard-Letter QAR 15.00
+214. Switzerland Global standard-Letter QAR 15.00
+215. Syria Global standard-Letter QAR 10.00
+216. Taiwan Global standard-Letter QAR 15.00
+217. Tajikistan Global standard-Letter QAR 15.00
+218. Tanzania Global standard-Letter QAR 15.00
+219. Thailand Global standard-Letter QAR 15.00
+220. Timor-Leste Global standard-Letter QAR 15.00
+221. Togo Global standard-Letter QAR 15.00
+224. Trinidad and Tobago Global standard-Letter QAR 15.00
+225. Tunisia Global standard-Letter QAR 15.00
+226. Turkey Global standard-Letter QAR 15.00
+227. Turkmenistan Global standard-Letter QAR 15.00
+228. Turks and Caicos Islands Global standard-Letter QAR 15.00
+229. Tuvalu Global standard-Letter QAR 15.00
+230. Uganda Global standard-Letter QAR 15.00
+231. Ukraine Global standard-Letter QAR 15.00
+232. United Arab Emirates Global standard-Letter QAR 10.00
+??. Great Britain Global standard-Letter QAR 15.00
+235. U.S.A. Global standard-Letter QAR 15.00
+234. Uruguay Global standard-Letter QAR 15.00
+237. Uzbekistan Global standard-Letter QAR 15.00
+238. Vanuatu Global standard-Letter QAR 15.00
+240. Venezuela Global standard-Letter QAR 15.00
+241. Vietnam Global standard-Letter QAR 15.00
+242. Virgin Islands (UK) Global standard-Letter QAR 15.00
+??. Virgin Islands, U.S. Global standard-Letter QAR 15.00
+244. Wallis & Futuna Global standard-Letter QAR 15.00
+247. Zambia Global standard-Letter QAR 15.00
+248. Zimbabwe Global standard-Letter QAR 15.00
+??. Ascension Global standard-Letter QAR 15.00
+242. Virgin Islands (UK) Global standard-Letter QAR 15.00
+??. Korea (Rep.) Global standard-Letter QAR 15.00
+??. Cote dIvoire Global standard-Letter QAR 15.00
+
+SUSPENDED DESTINATIONS - Global standard-Letter unavailable (60)
+1. Afghanistan (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+2. Åland Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+7. Angola (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+9. Antarctica (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+28. Bonaire, Sint Eustatius and Saba (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+29. Bosnia-Herzegovina (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+??. Bouvet Island (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+32. British Indian Ocean Territory (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+33. Brunei (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+34. Bulgaria (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+46. Christmas Island (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+47. Cocos Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+57. Curaçao (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+61. Djibouti (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+64. Ecuador (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+68. Eritrea (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+74. Fiji (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+77. French Guiana (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+79. French Southern Territories (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+92. Guernsey (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+??. Heard Island and McDonald Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+103. Iran (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+106. Isle of Man (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+107. Israel (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+111. Jersey (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+119. Kuwait (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+120. Kyrgyzstan (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+126. Libya (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+129. Luxembourg (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+139. Mauritania (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+140. Mauritius (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+141. Mayotte (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+142. Mexico (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+144. Moldova (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+151. Myanmar (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+163. Northern Mariana Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+168. Palau (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+169. Palestine (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+182. Russia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+184. Saint Barthélemy (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+188. Saint Martin (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+200. Sint Maarten (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+201. Slovakia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+202. Slovenia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+204. Somalia (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+212. Svalbard and Jan Mayen (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+222. Tokelau (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+223. Tonga (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+236. U.S. Minor Outlying Islands (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+245. Western Sahara (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+246. Yemen (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+??. Dem. People’s Rep. of Korea (“Global standard-Letter” has no price: Invalid destination country name)
+51. Dem. Rep. Of Congo (“Global standard-Letter” has no price: Invalid destination country name)
+220. Timor-Leste (“Global standard-Letter” has no price: Unable to calculate, please try again later)
+54. Côte d'Ivoire (“Global standard-Letter” has no price: Invalid destination country name)
+121. Laos (“Global standard-Letter” has no price: Invalid destination country name)
+??. Netherlands Antilles (“Global standard-Letter” has no price: Invalid destination country name)
+50. Congo (“Global standard-Letter” has no price: Invalid destination country name)
+??. Tristan da Cunha (“Global standard-Letter” has no price: Invalid destination country name)
+239. Vatican (“Global standard-Letter” has no price: Invalid destination country name)
+
+SUSPENDED DESTINATIONS - Missing from Qatar Post's list (5)
+116. Korea(North)
+117. Korea(South)
+118. Kosovo
+233. United Kingdom
+243. Virgin Islands of the USA
